@@ -248,7 +248,7 @@ class Ui_MainWindow(QWidget):
 
 
         finalpath2 = os.path.abspath(os.getcwd())
-        finalpath3 = finalpath2+"/copyDirected.txt"
+        finalpath3 = finalpath2+"/copyDIRECTED.TXT"
         watch2 = QtCore.QFileSystemWatcher(self)
         watch2.addPath(finalpath3)
         print(finalpath3)
