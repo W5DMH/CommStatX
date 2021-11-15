@@ -140,7 +140,7 @@ def parseDirected():
     for num, str in enumerate(last_lines, 1):
         if group1 in str:
             currentgrp = group1
-            #print("group1 is in string : "+currentgrp)
+            print("group1 is in string : "+currentgrp)
             membergrp1 = group1
 
         if group2 in str:
@@ -236,7 +236,7 @@ def parseDirected():
                 callsign = arr4[0]
                 color = arr2[2]
                 marquee = arr2[3]
-                #print("marquee to be written - id :"+id+" callsign :"+callsign+" groupname :"+currentgrp+" time :"+utc+" color :"+color+" mesaage : "+marquee)
+                print("marquee to be written - id :"+id+" callsign :"+callsign+" groupname :"+currentgrp+" time :"+utc+" color :"+color+" mesaage : "+marquee)
                 cur.execute("INSERT OR REPLACE INTO marquees_Data (idnum, callsign, groupname, date, color, message) VALUES(?, ?, ?, ?, ?, ?)", (id, callsign, currentgrp, utc, color, marquee))
                 conn.commit()
                 getmember(callsign, membergrp1,membergrp2, utc)
@@ -348,13 +348,5 @@ def runreaders():
 
 
 #runreaders()
-
-
-
-
-
-
-
-
 
 

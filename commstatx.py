@@ -248,7 +248,7 @@ class Ui_MainWindow(QWidget):
 
 
         finalpath2 = os.path.abspath(os.getcwd())
-        finalpath3 = finalpath2+"/copyDirected.txt"
+        finalpath3 = finalpath2+"/copyDIRECTED.TXT"
         watch2 = QtCore.QFileSystemWatcher(self)
         watch2.addPath(finalpath3)
         print(finalpath3)
@@ -267,7 +267,7 @@ class Ui_MainWindow(QWidget):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "CommStatX BETA Ver 0.02"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "CommStatX"))
         self.label.setText(_translate("MainWindow", "TextLabel Marquee"))
         self.label_2.setText(_translate("MainWindow", "TextLabel Clock"))
         self.menuEXIT.setTitle(_translate("MainWindow", "MENU"))
