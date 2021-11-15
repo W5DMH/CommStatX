@@ -21,6 +21,7 @@ like /home/dan/.local/share/JS8Call    do not enter the trailing slash or the fi
 
 After that is complete you should be able to run CommStatx by retyping:<br>
 <b> type : python3 commstatx.py </b>
+
 <br>
 
  
