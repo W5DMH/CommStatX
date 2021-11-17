@@ -501,7 +501,7 @@ class Ui_MainWindow(QWidget):
         self.loadbulletins()
         self.loadData()
         self.label_3.setText(" Active Group : "+selectedgroup)
-        #QtCore.QTimer.singleShot(0000, self.directed)
+        QtCore.QTimer.singleShot(30000, self.directed)
 
     def mapperWidget(self):
         mapper = QWebEngineView()
