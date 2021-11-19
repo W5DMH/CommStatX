@@ -8,7 +8,7 @@ probably best to update python a bit before starting: <br>
 <b>in a terminal type : python3 -m pip install --upgrade pip </b>
 
 when the above command completes, make sure you are in the commstatx folder and then : <br>
-<b>type: Python3 install.py </b>
+<b>type: python3 install.py </b>
 
 After a successful install (this installs all of the necessary Python modules) 
 
